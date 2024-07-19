@@ -9,6 +9,7 @@
 name: Minimum Build
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [lede-upstream-updated]
   release:

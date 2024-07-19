@@ -9,6 +9,7 @@
 name: Typical Build
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [minimum-build-success]
 #   push:
